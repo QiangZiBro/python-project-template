@@ -64,6 +64,9 @@ Instructions
 
 #. *(Optional, but good practice)* Create a new virtual environment for your project:
 
+   With anaconda or miniconda3::
+       conda create -n my-project python=3.7
+
    With pyenv_ and pyenv-virtualenv_::
 
        pyenv virtualenv my-project
