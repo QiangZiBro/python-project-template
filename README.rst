@@ -64,11 +64,11 @@ Instructions
 
 #. *(Optional, but good practice)* Create a new virtual environment for your project:
 
-   With anaconda or miniconda3::
+   With anaconda_ or miniconda3_::
        conda create -n my-project python=3.7
+       conda activate my-project
 
    With pyenv_ and pyenv-virtualenv_::
-
        pyenv virtualenv my-project
        pyenv local my-project
 
@@ -121,6 +121,8 @@ Instructions
 .. _virtualenvwrapper: http://virtualenvwrapper.readthedocs.org/en/latest/index.html
 .. _virtualenv: http://www.virtualenv.org/en/latest/
 .. _Virtual Environment section: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+.. _anaconda: https://www.anaconda.com/
+.. _miniconda: https://docs.conda.io/en/latest/miniconda.html
 
 Using Paver
 -----------
